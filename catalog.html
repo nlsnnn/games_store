@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Store</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapperMain">
+        <header class="black">
+            <div class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html" class="catalogLink">Главная</a></li>
+                <li><a href="reviews.html" class="reviewsLink">Отзывы</a></li>
+                <li><a href="galery.html" class="galeryLink">Галерея</a></li>
+            </ul>
+            <div class="r-nav">
+                <div class="theme">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <button class="btnLogin">Войти</button>
+            </div>
+
+        </header>
+        <main>
+            <section class="catalog container">
+                <h2>Каталог</h2>
+                <div class="list">
+                    <li data-filter=".All">Все</li>
+                    <li data-filter=".Popular">Самые популярные</li>
+                    <li data-filter=".Action">Экшн</li>
+                    <li data-filter=".Strategy">Стратегии</li>
+                </div>
+                <div class="cards">
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/rdr.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Red Dead Redemption 2</h3>
+                                    <div class="bottom">
+                                        <span>1990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/cyberpunk.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>CyberPunk 2077</h3>
+                                    <div class="bottom">
+                                        <span>1490 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/minecraft.png">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Minecraft</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/gta5.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Grand Theft Auto V</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/hoi4.png">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Hearts of Iron IV</h3>
+                                    <div class="bottom">
+                                        <span>1190 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/civilization.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Civilization VI</h3>
+                                    <div class="bottom">
+                                        <span>1090 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/squad.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>SQUAD</h3>
+                                    <div class="bottom">
+                                        <span>490 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/total_war.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Total War: Attila</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/cod.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Call of Duty</h3>
+                                    <div class="bottom">
+                                        <span>490 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/doom.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>DOOM</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/ck3.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Crusader Kings III</h3>
+                                    <div class="bottom">
+                                        <span>1990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/uncharted.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Uncharted 4</h3>
+                                    <div class="bottom">
+                                        <span>790 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="logo">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="nav">
+                    <li><a href="index.html" class="catalogLink">Главная</a></li>
+                    <li><a href="reviews.html" class="reviewsLink">Отзывы</a></li>
+                    <li><a href="galery.html" class="galeryLink">Галерея</a></li>
+                    <li></li>
+                </div>
+                <div class="socials">
+                    <a href="https://vk.com"><i class="fa-brands fa-vk"></i></a>
+                    <a href="https://t.me"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <section class="popup">
+        <div class="wrapper">
+            <div class="icon-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="form-box login">
+                <h2>Вход</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Запомнить</label>
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+                    <button type="submit" class="btn">Войти</button>
+                    <div class="login-register">
+                        <p>Нет аккаунта? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Регистрация</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Имя пользователя</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Я согласен с правилами и условиями</label>
+                    </div>
+                    <button type="submit" class="btn">Зарегистрироваться</button>
+                    <div class="login-register">
+                        <p>Есть аккаунт? <a href="#" class="login-link">Войти</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</html>

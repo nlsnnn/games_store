@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Store</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapperMain">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <ul class="nav">
+                <li><a href="catalog.html" class="catalogLink">Каталог</a></li>
+                <li><a href="reviews.html" class="reviewsLink">Отзывы</a></li>
+                <li><a href="galery.html" class="galeryLink">Галерея</a></li>
+            </ul>
+            <div class="r-nav">
+                <div class="theme">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <button class="btnLogin">Войти</button>
+            </div>
+
+        </header>
+        <section class="box">
+            <div class="hero">
+                <video src="media/video.mp4" autoplay muted loop></video>
+                <h1>Games Store</h1>
+                <h3>Лучший выбор для истинных геймеров</h3>
+                <!-- <button class="boxBtn">Купить</button> -->
+            </div>
+        </section>
+        <main>
+
+
+            <section class="catalog container">
+                <h2>Каталог</h2>
+                <div class="list">
+                    <li data-filter=".All">Все</li>
+                    <li data-filter=".Popular">Самые популярные</li>
+                    <li data-filter=".Action">Экшн</li>
+                    <li data-filter=".Strategy">Стратегии</li>
+                </div>
+                <div class="cards">
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/rdr.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Red Dead Redemption 2</h3>
+                                    <div class="bottom">
+                                        <span>1990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/cyberpunk.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>CyberPunk 2077</h3>
+                                    <div class="bottom">
+                                        <span>1490 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/minecraft.png">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Minecraft</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Popular">
+                        <div class="image">
+                            <img src="media/img/cards/gta5.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Grand Theft Auto V</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/hoi4.png">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Hearts of Iron IV</h3>
+                                    <div class="bottom">
+                                        <span>1190 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/civilization.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Civilization VI</h3>
+                                    <div class="bottom">
+                                        <span>1090 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/squad.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>SQUAD</h3>
+                                    <div class="bottom">
+                                        <span>490 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/total_war.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Total War: Attila</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/cod.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Call of Duty</h3>
+                                    <div class="bottom">
+                                        <span>490 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/doom.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>DOOM</h3>
+                                    <div class="bottom">
+                                        <span>990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card All Strategy">
+                        <div class="image">
+                            <img src="media/img/cards/ck3.jpeg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Crusader Kings III</h3>
+                                    <div class="bottom">
+                                        <span>1990 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card All Action">
+                        <div class="image">
+                            <img src="media/img/cards/uncharted.jpg">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Uncharted 4</h3>
+                                    <div class="bottom">
+                                        <span>790 ₽</span>
+                                        <div class="cart">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="reviews container">
+                <h2>Отзывы</h2>
+                <div class="slide-container swiper mySwiper">
+                    <div class="slide-content">
+                        <div class="reviews-wrapper swiper-wrapper">
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/1.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>creeper2006</h3>
+                                        <p>
+                                            Отличный выбор игр, удобный интерфейс - магазин стал моим основным источником новых игр!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/3.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>blessedkid</h3>
+                                        <p>
+                                            Благодаря этому магазину я смог найти много редких игр и купить их по доступным ценам. Рекомендую всем геймерам!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/4.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>index</h3>
+                                        <p>
+                                            Акции и скидки делают покупки еще более приятными. Спасибо за качественный сервис!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/5.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>LOLOLOSHKA</h3>
+                                        <p>
+                                            Большой выбор игр всех жанров, удобный поиск и фильтрация - все для удовольствия геймеров. Рекомендую этот магазин!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/8.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>4el</h3>
+                                        <p>
+                                            Отличные цены, высокое качество сервиса - идеальное место для покупки игр!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/7.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>l1lines</h3>
+                                        <p>
+                                            Здесь можно найти все: от самых популярных игр до уникальных инди-проектов - мой выбор!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="galery container">
+                <div class="galery-header">
+                    <div class="galery-header-content">
+                        <h2>Галерея</h2>
+                    </div>
+                </div>
+                <div class="grid-layout">
+                    <div class="grid-layout__body _container">
+                        <div class="grid">
+                            <div class="grid__item grid_row_2 grid_column_2">
+                                <img src="media/img/grid/1.jpg" alt="./img/1jpg">
+                            </div>
+                            <div class="grid__item grid_row_4 mobile_item">
+                                <img src="media/img/grid/10.jpg" alt="./img/1.jpg">
+                            </div>
+                            <div class="grid__item grid_row_2 mobile_item">
+                                <img src="media/img/grid/3.jpg" alt="./img/1.jpg">
+                            </div>
+                            <div class="grid__item grid_row_2 mobile_item">
+                                <img src="media/img/grid/4.jpg" alt="./img/1.jpg">
+                            </div>
+                            <div class="grid__item grid_row_2">
+                                <img src="media/img/grid/5.png" alt="./img/1.jpg">
+                            </div>
+                            <div class="grid__item">
+                                <img src="media/img/grid/6.jpg" alt="./img/1.jpg">
+                            </div>
+                            <div class="grid__item grid_prelast">
+                                <img src="media/img/grid/7.jpg" alt="./img/8.jpg">
+                            </div>
+                            <div class="grid__item grid_row_2 grid_column_2 grid_last mobile_item">
+                                <img src="media/img/grid/2.jpg" alt="./img/7.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="logo">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="nav">
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li></li>
+                </div>
+                <div class="socials">
+                    <a href="https://vk.com"><i class="fa-brands fa-vk"></i></a>
+                    <a href="https://t.me"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <section class="popup">
+        <div class="wrapper">
+            <div class="icon-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="form-box login">
+                <h2>Вход</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Запомнить</label>
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+                    <button type="submit" class="btn">Войти</button>
+                    <div class="login-register">
+                        <p>Нет аккаунта? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Регистрация</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Имя пользователя</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Я согласен с правилами и условиями</label>
+                    </div>
+                    <button type="submit" class="btn">Зарегистрироваться</button>
+                    <div class="login-register">
+                        <p>Есть аккаунт? <a href="#" class="login-link">Войти</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</html>

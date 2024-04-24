@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Store</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapperMain ">
+        <header class="black">
+            <div class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html" class="reviewsLink">Главная</a></li>
+                <li><a href="catalog.html" class="catalogLink">Каталог</a></li>
+                <li><a href="galery.html" class="galeryLink">Галерея</a></li>
+            </ul>
+            <div class="r-nav">
+                <div class="theme">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <button class="btnLogin">Войти</button>
+            </div>
+
+        </header>
+        <main>
+            <section class="reviews container single">
+                <h2>Отзывы</h2>
+                <div class="slide-container swiper mySwiper">
+                    <div class="slide-content">
+                        <div class="reviews-wrapper swiper-wrapper">
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/1.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>creeper2006</h3>
+                                        <p>
+                                            Отличный выбор игр, удобный интерфейс - магазин стал моим основным источником новых игр!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/3.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>blessedkid</h3>
+                                        <p>
+                                            Благодаря этому магазину я смог найти много редких игр и купить их по доступным ценам. Рекомендую всем геймерам!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/4.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>index</h3>
+                                        <p>
+                                            Акции и скидки делают покупки еще более приятными. Спасибо за качественный сервис!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/5.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>LOLOLOSHKA</h3>
+                                        <p>
+                                            Большой выбор игр всех жанров, удобный поиск и фильтрация - все для удовольствия геймеров. Рекомендую этот магазин!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/8.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>4el</h3>
+                                        <p>
+                                            Отличные цены, высокое качество сервиса - идеальное место для покупки игр!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review swiper-slide">
+                                <div class="image-content">
+                                    <div class="image">
+                                        <img src="media/img/reviews/7.jpg">
+                                    </div>
+                                    <div class="review-content">
+                                        <h3>l1lines</h3>
+                                        <p>
+                                            Здесь можно найти все: от самых популярных игр до уникальных инди-проектов - мой выбор!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class="reviewBtn">Оставить отзыв</button>
+            </section>
+        </main>
+        <footer class="short">
+            <div class="container">
+                <div class="logo">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="nav">
+                    <li><a href="index.html" class="reviewsLink">Главная</a></li>
+                    <li><a href="catalog.html" class="catalogLink">Каталог</a></li>
+                    <li><a href="galery.html" class="galeryLink">Галерея</a></li>
+                    <li></li>
+                </div>
+                <div class="socials">
+                    <a href="https://vk.com"><i class="fa-brands fa-vk"></i></a>
+                    <a href="https://t.me"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="popup-review">
+        <img src="media/img/tick.png">
+        <h2>Спасибо!</h2>
+        <p>Ваш отзыв был успешно отправлен.</p>
+        <button type="button" class="reviewPopupClose">OK</button>
+    </div>
+
+    <section class="popup">
+        <div class="wrapper">
+            <div class="icon-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="form-box login">
+                <h2>Вход</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Запомнить</label>
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+                    <button type="submit" class="btn">Войти</button>
+                    <div class="login-register">
+                        <p>Нет аккаунта? <a href="#" class="register-link">Зарегистрироваться</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Регистрация</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Имя пользователя</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Я согласен с правилами и условиями</label>
+                    </div>
+                    <button type="submit" class="btn">Зарегистрироваться</button>
+                    <div class="login-register">
+                        <p>Есть аккаунт? <a href="#" class="login-link">Войти</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</html>
